@@ -13,7 +13,7 @@ mkdir -p build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release .. && cmake --build .
 ```
 
-### bFor compiling a cpp file which uses levelDB:
+## For compiling a cpp file which uses levelDB:
 While compiling, we need to link to this static library libleveldb.a using -lleveldb
 ```
 g++-11 <file_name> -I<path to leveldb/include> -L<path to leveldb/build> -lleveldb

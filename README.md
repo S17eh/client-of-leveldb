@@ -5,7 +5,9 @@ This project presents a detailed analysis of LevelDB, a fast and lightweight key
 ## Steps to Complie leveldb:
 
 ### Cloning the leveldb repo:
+```
 git clone --recurse-submodules https://github.com/google/leveldb.git
+```
 
 ### For cmake:
 ```

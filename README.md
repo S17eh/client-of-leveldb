@@ -25,3 +25,26 @@ More detials can be found in the report of this study.
 Find our in depth report on the basic idea, structure and internal working of LSM tree here : https://shorturl.at/utli2
 
 Source code of LevelDB : https://github.com/google/leveldb
+
+
+# client-of-WiredTiger
+
+### Clone the Repo:
+```
+git clone https://github.com/wiredtiger/wiredtiger.git
+```
+
+### Building WiredTiger
+```
+cd wiredtiger
+mkdir build
+cd build
+cmake ../.
+```
+
+
+# client-of-RocksDB
+
+### All similar steps that were performed with LevelDB. (Although, RocksDB requires some more dependancies, those can be installed easily.)
+
+
